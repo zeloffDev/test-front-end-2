@@ -2,6 +2,7 @@ import { Grid, Page } from "@shopify/polaris";
 import General from "./components/genenral";
 import Preview from "./components/preview";
 import VolumeDiscountRole from "./components/volumeDiscountRole";
+
 export const Homepage = () => {
   return (
     <Page>

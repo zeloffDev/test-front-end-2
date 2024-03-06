@@ -3,11 +3,10 @@ import { data, setData } from "@/redux/slice/StoreSlice";
 import { randomId } from "@/utils/utils";
 import { Bleed, Box, Button, Card, Text } from "@shopify/polaris";
 import { PlusIcon } from "@shopify/polaris-icons";
-import React from "react";
 import Option from "./option";
 import style from "./volumeDiscountRole.module.css";
 
-const VolumeDiscountRole: React.FC = () => {
+const VolumeDiscountRole = () => {
   const dispatch = useAppDispatch();
 
   const data = useAppSelector((state) => state.Store.data);

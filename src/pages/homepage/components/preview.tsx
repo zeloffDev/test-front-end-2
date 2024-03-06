@@ -10,7 +10,7 @@ import {
   Text,
 } from "@shopify/polaris";
 
-function Preview() {
+const Preview = () => {
   const { data, genenral } = useAppSelector((state) => state.Store);
   const fieldErrors = checkValidate(data, genenral);
 
@@ -48,6 +48,6 @@ function Preview() {
       </Box>
     </LegacyCard>
   );
-}
+};
 
 export default Preview;

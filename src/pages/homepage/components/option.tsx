@@ -4,7 +4,7 @@ import { optionsDiscount } from "@/utils/constants";
 import { debounce } from "@/utils/utils";
 import { Box, InlineGrid, Select, TextField } from "@shopify/polaris";
 import { DeleteIcon } from "@shopify/polaris-icons";
-import React, { memo, useState } from "react";
+import { memo, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import style from "./option.module.css";
 
@@ -13,7 +13,7 @@ interface OptionProps {
   item: data;
 }
 
-const Option: React.FC<OptionProps> = ({ index, item }) => {
+const Option = ({ index, item }: OptionProps) => {
   const dispatch = useAppDispatch();
   const data = useAppSelector((state) => state.Store.data);
   const [discount, setDiscount] = useState<string>(item.Discount ?? "1");
