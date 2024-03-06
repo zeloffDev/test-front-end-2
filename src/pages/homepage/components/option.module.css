@@ -1,0 +1,27 @@
+.box{
+    border: 1px solid #f1f1f1;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    background-color: #ed4d2d;
+    color: white;
+    width: 80px;
+    padding: 5px;
+    border-radius: 0px 0px 10px;
+}
+
+.DeleteIcon{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inlineGrid{
+    text-align: center;
+    margin: 40px;
+}
