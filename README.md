@@ -1,6 +1,6 @@
-# Stoked Finance
+## Test Front End
 
-Stoked finance using the following tools:
+Using the following tools:
 
 - [React](https://react.dev/) as the UI framework
 - [TypeScript](https://www.typescriptlang.org/) for type checking
@@ -11,7 +11,7 @@ Stoked finance using the following tools:
   wallets and loading data
 - [pnpm](https://pnpm.io/) for package management
 
-## Starting Stoked Finance
+## Starting
 
 To install dependencies you can run
 
@@ -19,7 +19,7 @@ To install dependencies you can run
 pnpm install
 ```
 
-To start Stoked finance in development mode run
+To start in development mode run
 
 ```bash
 pnpm dev
@@ -27,7 +27,7 @@ pnpm dev
 
 ## Building
 
-To build Stoked finance for deployment you can run
+To build for deployment you can run
 
 ```bash
 pnpm build

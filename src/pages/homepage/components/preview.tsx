@@ -13,7 +13,6 @@ import {
 const Preview = () => {
   const { data, genenral } = useAppSelector((state) => state.Store);
   const fieldErrors = checkValidate(data, genenral);
-
   const isDisabled = isArray(fieldErrors);
 
   const handleSubmit = () => {

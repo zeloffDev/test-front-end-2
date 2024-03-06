@@ -8,8 +8,8 @@ import style from "./volumeDiscountRole.module.css";
 
 const VolumeDiscountRole = () => {
   const dispatch = useAppDispatch();
-
   const data = useAppSelector((state) => state.Store.data);
+
   const handleAddData = () => {
     const newData: data[] = [...data];
     newData.push({ Id: randomId() });
