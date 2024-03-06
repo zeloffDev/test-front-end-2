@@ -8,8 +8,8 @@ const pwaOptions: Partial<VitePWAOptions> = {
   base: "/",
   includeAssets: ["favicon.ico"],
   manifest: {
-    name: "Stoked finance",
-    short_name: "Stoked",
+    name: "Test Front End",
+    short_name: "Test",
     theme_color: "#ffffff",
     icons: [
       {
