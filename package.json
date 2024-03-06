@@ -1,0 +1,50 @@
+{
+  "name": "stoked-finance",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 5174",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "pre-commit": "lint-staged"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "0.50.1",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@shopify/polaris": "^12.20.0",
+    "@tanstack/react-query": "^5.0.0",
+    "axios": "^1.6.7",
+    "bignumber.js": "^9.1.2",
+    "clsx": "^2.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.6.2",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.1",
+    "react-use": "^17.5.0",
+    "swiper": "^11.0.6",
+    "vite-plugin-pwa": "^0.19.0",
+    "workbox-window": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.11",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.35",
+    "prettier": "^3.0.0",
+    "qs": "^6.11.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^4.4.4"
+  }
+}
